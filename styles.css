@@ -633,6 +633,10 @@ input::placeholder {
         font-size: 30px;
     }
 
+    #testimonials .underline2{
+        border-bottom: none;
+    }
+
     #testimonials .row{
         margin-top: -28px;
     }
