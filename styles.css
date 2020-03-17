@@ -640,6 +640,10 @@ input::placeholder {
     #testimonials .row{
         margin-top: -28px;
     }
+    
+    #banner .underline{
+        border-bottom: none;
+    }
 
     #banner .col-lg-5{
         display: none;
