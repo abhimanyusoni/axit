@@ -1,0 +1,732 @@
+#header{
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+nav{
+    padding: 0.5rem 0rem !important;
+}
+
+nav a{
+    color: white;
+    font-size: 12px;
+}
+
+
+nav li{
+    margin-left: 2rem;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: gainsboro;
+}
+
+nav img{
+    width: 60%;
+}
+
+#banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.411), rgba(160, 0, 0, 0.411)), url(banner.jpg);
+    width: 100%;
+    height: 640px;
+    object-fit: cover;
+    position: relative;
+    color: white;
+}
+
+#banner img{
+    margin-top: 110px;
+}
+
+#banner .text1{
+    font-size: xx-large;
+    margin-top: 2rem;
+    font-family: 'Raleway';
+}
+
+#banner .text2{
+    font-size: medium;
+    margin-top: 80px;
+    font-family: 'Raleway';
+    font-weight: 200;
+}
+
+#banner .downloadButton{
+    color: white;
+    background: transparent;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-top: 2rem;
+    padding: 8px 40px;
+    border: 2px solid white;
+}
+
+#banner .downloadButton:hover{
+    background-color: white;
+    color: black;
+}
+
+#banner .underline{
+    border-bottom: 2px solid white;
+    padding-bottom: 40px;
+}
+
+#social{
+    padding: 1.5rem 0;
+    box-shadow: 1px 1px 4px grey;
+    position: relative;
+}
+
+.social-title{
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    margin-bottom: 0.25rem;
+}
+
+.social-sub{
+    font-size: medium;
+    font-weight: 200;
+    font-family: 'Open Sans';
+    margin-bottom: 0;
+}
+
+#social img{
+    width: 15%;
+    opacity: 0.2;
+    padding: 15px 25px;
+}
+
+#social img:hover{
+    opacity: 0.4;
+}
+
+.trial-form{
+    margin-top: 150px;
+}
+
+.bannerButton{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    background-color: #ff7b00;
+    color: white;
+    font-family: 'Open Sans';
+    width: 100%;
+    border: orange;
+    padding: 12px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.bannerButton:hover{
+    background-color: black;
+}
+
+.orange{
+    color: #ff7b00;
+}
+
+.card-header{
+    background-color: #f7f7f7;
+    color: black;
+}
+
+.card-header h6{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.card-body{
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+.input{
+    background: transparent;
+    border: none;
+    color: black;
+    padding: 15px 5px;
+    width: 100%;
+}
+
+input::placeholder {
+    font-size: 13px;
+    color: #c2c2c2;
+}
+
+.borderBottom{
+    border-bottom: 1px solid silver;
+    padding-bottom: 15px;
+
+}
+
+#tabs{
+    background-color: #f5f5f5;
+    padding: 124px 0;
+}
+
+#tabs .nav-link{
+    margin-top: 1px;
+    background-color: #292929;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding-top: 38px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: white;
+}
+
+#tabs .nav-link.active{
+    background-color: #ff7700;
+}
+
+.col-lg-10 h5{
+    font-family: 'Open Sans';
+    font-weight: 700;
+}
+
+.col-lg-10 .tabText{
+    width: 60%;
+    margin-top: 45px;
+    font-family: 'Open Sans';
+    font-size: 0.90rem;
+}
+
+.col-lg-10 .tabText2{
+    width: 60%;
+    margin-top: 25px;
+    font-family: 'Open Sans';
+    font-size: 0.90rem;
+}
+
+.col-lg-10 .tabsButton{
+    position: absolute;
+    bottom: 0;
+    background-color: #ff7700;
+    padding: 10px 25px;
+    color: white;
+    font-family: 'Open Sans';
+    border: none;
+    border-radius: 4px;
+}
+
+.col-lg-10 img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#list{
+    padding: 124px 0;
+}
+
+#list .listImage{
+    margin-top: 40px;
+    box-shadow: 4px 4px 30px grey;
+}
+
+#list h5{
+    font-family: 'Open Sans';
+    font-weight: 700;
+}
+
+#list h5 .underline2{
+    border-bottom: 2px solid #ff7700;
+    padding-bottom: 2rem;
+}
+
+#list .col-lg-6 p{
+    margin-top: 4rem;
+}
+
+#list .col-lg-10 h6{
+    font-family: 'Open Sans';
+    font-weight: 700;
+}
+
+#list .col-lg-6 .row{
+    margin-top: 2rem;
+}
+
+#list .col-lg-10 p{
+    margin-top: 0;
+}
+
+#list2{
+    padding: 124px 0;
+    background-color: #f5f5f5;
+}
+
+#list2 .listImage{
+    box-shadow: 4px 4px 30px grey;
+}
+
+#list2 h5{
+    font-family: 'Open Sans';
+    font-weight: 700;
+}
+
+#list2 h5 .underline2{
+    border-bottom: 2px solid #ff7700;
+    padding-bottom: 2rem;
+}
+
+#list2 .col-lg-6 p{
+    margin-top: 4rem;
+}
+
+#testimonials{
+    text-align: center;
+    padding: 80px 0;
+}
+
+#testimonials .col-lg-4{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#testimonials h1{
+    font-family: 'Raleway';
+    font-size: 36px;
+}
+
+.underline2{
+    border-bottom: 2px solid #ff7700;
+    padding-bottom: 30px;
+}
+
+.tagline{
+    margin-top: 60px;
+    padding-bottom: 50px;
+    font-size: 14px;
+}
+
+.testimonials_subdiv img{
+    padding-bottom: 30px;
+}
+
+.testimonials_subdiv h3{
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+#pricing{
+    padding: 100px 0;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+
+#pricing .col-lg-4{
+    position: relative;
+    top: 50px;
+}
+
+#pricing .col-lg-4.middle{
+    position: relative;
+    top: 13px !important;
+}
+
+.col-lg-4.middle .pricing-detail {
+    position: relative;
+    top: -15px;
+}
+
+.popular{
+    background-color: #ff7700;
+}
+
+.popular p{
+    margin-top: -7px;
+    padding: 10px;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+
+.customer-review-tagline{
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    margin-top: 60px;
+}
+
+
+#pricing h1{
+    font-family: 'Raleway';
+    font-size: 36px;
+}
+
+#pricing .col-lg-4 .pricing-title{
+    background-color: #333333;
+    border-bottom: 1px solid white;
+}
+
+#pricing .col-lg-4 .pricing-title  h4{
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px 0;
+    color: white;
+}
+
+#pricing .col-lg-4 .price-box{
+    background-color: #333333;
+    color: white;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #ff7700;
+}
+
+#pricing .col-lg-4 .price-box h1{
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#pricing .col-lg-4 .price-box p{
+    opacity: 0.5;
+}
+
+#pricing .col-lg-4 .price-box .main-price{
+    font-size: 94px !important;
+}
+
+.pricing-detail{
+    background-color: white;
+    padding: 20px 0;
+}
+
+.pricing-detail p{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #86878b;
+}
+
+#customer-review{
+    padding: 100px 0;
+}
+
+#customer-review h1{
+    text-align: center;
+    font-family: 'Raleway';
+}
+
+.tagline{
+    text-align: center;
+}
+
+#customer-review .col-lg-4{
+    padding: 30px;
+}
+
+#customer-review .customer-saying{
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+#customer-review .customer-saying p{
+    padding: 30px 15px;
+    color: #86878b;
+    
+}
+
+#customer-review .customer-saying p::after {
+    border-color: transparent #f5f5f5 transparent transparent;
+    border-style: solid;
+    border-width: 20px;
+    top: 40px;
+    transform: rotate(20deg);
+    content: " ";
+    right: 27%;
+    position: relative;
+  }
+
+.customer{
+    display: inline-flex;
+    padding: 15px 0;
+}
+
+.customer .customer-name{
+    margin-left: 20px;
+    padding-top: 6px;
+    font-family: 'Open Sans';
+}
+
+.customer .customer-name h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#stylish-design{
+    background-image: linear-gradient(0deg, rgba(255, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(banner2.jpg);
+    position: relative;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#stylish-design h1{
+    font-family: 'Raleway';
+    font-size: 36px;
+}
+
+#stylish-design p{
+    font-family: 'Raleway';
+    font-size: 16px;
+    margin-top: 65px;
+    opacity: 0.8;
+}
+
+#stylish-design button{
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-family: 'Open Sans';
+    padding: 8px 30px;
+    margin-top: 30px;   
+}
+
+#stylish-design button:hover{
+    background-color: white;
+    color: black;
+}
+
+#stylish-design .underline2{
+    border-bottom: 2px solid white;
+}
+
+#contact-us{
+    text-align: center;
+    padding: 100px 0;
+}
+
+#contact-us h1{
+    font-family: 'Raleway';
+    text-align: center;
+}
+
+#contact-us p{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    margin-top: 65px;
+    text-align: center;
+}
+
+#contact-us .col-lg-6 input{
+    display: block;
+}
+
+#contact-us .col-lg-6 textarea{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    width: 90%;
+    height: 100%;
+    float: right;
+    font-family: 'Raleway';
+}
+
+#contact-us .col-lg-6 textarea::placeholder{
+    color: #bdbdbd;
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+#contact-us .col-lg-6 div{
+    border-bottom: 1px solid #bdbdbd;
+    width: 90%;
+}
+
+#contact-us .col-lg-6 div input{
+    padding: 10px;
+    width: 100%;
+    border: none;
+}
+
+#contact-us .col-lg-6 {
+    padding: 50px 0;
+}
+
+#contact-us button{
+    background-color: #ff7700;
+    color: white;
+    font-family: 'Open Sans';
+    padding: 8px 25px;
+    border: none;
+    margin-top: 20px;
+}
+
+#footer{
+    padding: 20px 0;
+    text-align: center;
+    background-color: #000;
+
+    width: 100%;
+}
+
+#footer img{
+    opacity: 0.8;
+    width: 22px;
+    height: 22px;
+    margin: 0 12px;
+}
+
+#footer img:hover{
+    opacity: 1;
+}
+
+#footer p{
+    margin-bottom: 0;
+    padding-top: 15px;
+    font-size: 12px;
+    color: #707070;
+}
+
+/**********************************************Media Query Section**************************************************/
+
+@media screen and (max-width:760px){
+    body{
+        font-size: 140%;
+        width: 100%;
+    }
+
+    .col-lg-10 .tabText{
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .col-lg-10 .tabText2{
+        font-size: 20px;
+        width: 100;
+    }
+
+    #list .listImage{
+        width: 100%;
+    }
+
+    #list2 .listImage{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #social .col-lg-7 img{
+        width: 15%;
+        margin-left: -5px;
+        padding: 20px 23px 0 0;
+    }
+
+    #testimonials{
+        padding-top: 50px;
+    }
+
+    #testimonials h1 {
+        font-family: 'Raleway';
+        font-size: 30px;
+    }
+
+    #testimonials .row{
+        margin-top: -28px;
+    }
+
+    #banner .col-lg-5{
+        display: none;
+    }
+
+    #tabs .col-lg-2{
+        display: none;
+    }
+
+    #tabs .col-lg-10{
+        width: 100%;
+        margin-top: -75px;
+    }
+
+    .col-lg-10 .tabsButton {
+        position: absolute;
+        bottom: -75px;
+    }
+
+    .col-lg-10 img{
+        display: none;
+    }
+
+    #list, #list2{
+        padding: 30px 0;
+    }
+
+    #list .col-lg-6 h5{
+        margin-top: 50px;
+    }
+
+    #list .col-lg-2{
+        width: 100vw;
+        margin-bottom: 20px;
+    }
+    
+    #pricing{
+        padding: 50px 0;
+    }
+
+    #pricing .row{
+        margin-top: -50px;
+        padding-bottom: 50px;
+    }
+
+    #pricing .middle{
+        margin-top: 90px;
+    }
+
+    #customer-review{
+        padding: 50px 0;
+    }
+
+    #customer-review h1{
+        font-size: 30px;
+    }
+
+    .customer-review-tagline{
+        margin-top: 30px;
+    }
+
+    .customer-saying{
+        margin-bottom: 50px;
+    }
+
+    .customer{
+        margin-left: 20px;
+    }
+
+    #customer-review h1 .underline2{
+        border-bottom: none;
+    }
+
+    #stylish-design h1 .underline2{
+        border-bottom: none;
+    }
+
+    #stylish-design p{
+        margin-top: 20px;
+    }
+
+    #contact-us{
+        padding: 50px 0;
+    }
+
+    #contact-us .col-lg-6{
+        padding: 30px;
+    }
+
+    #contact-us .col-lg-6 textarea{
+        float: left;
+    }
+
+}

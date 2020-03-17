@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!---------Bootstrap-------->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!------external css------->
+    <link rel="stylesheet" href="styles.css">
+
+    <!----------google fonts------>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Raleway:200,400,700&display=swap" rel="stylesheet">
+
+    <!-----------Scripts--------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#"><img src="logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav  ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+    </section>
+
+    <section id="banner">
+        <div class="black"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <img src="logo.png" alt="">
+                    <p class="text1">MODERN AXURE TEMPLATE <br>
+                    <span class="underline">FOR</span> BEAUTIFUL PROTOTYPES</p>
+                    <p class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <br>
+                        euismod bibendum laoreet. Proin gravida dolor sit amet lacus <br>
+                        accumsan et viverra justo commodo.
+                    </p>
+                    <button class="downloadButton">Download</button>
+                </div>
+                <div class="col-lg-5">
+                    <div class=" mb-3 trial-form float-right" style="max-width: 18rem;">
+                        <div class="card-header"><h6>Try Your <span class="orange"> FREE</span> Trial Today</h6></div>
+                        <div class="card-body">
+                          <span class="borderBottom"><input class="input" type="text" placeholder="Name"></span>
+                          <span class="borderBottom"><input class="input" type="email" placeholder="Email"></span>
+                          <span class="borderBottom"><input class="input" type="password" placeholder="Password"></span>
+                        </div>
+                        <div class="cardfooter">
+                            <button class="bannerButton">Get Started</button>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </section>
+
+    <section id="social">
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <p class="social-title">Social Media</p>
+                <p class="social-sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> 
+                    Aenean euismod bibendum laoreet.
+                </p>
+            </div>
+            <div class="col-lg-7">
+               <img src="facebook.png" alt="">
+               <img src="twitter.png" alt="">
+               <img src="google-plus.png" alt="">
+               <img src="pinterest.png" alt="">
+               <img src="instagram.png" alt="">
+               <img src="rss.png" alt="">
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="tabs">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">TAB 1</a>
+              <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">TAB 2</a>
+              <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">TAB 3</a>
+            </div>
+          </div>
+          <div class="col-lg-10">
+            <div class="tab-content" id="v-pills-tabContent">
+              <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                <h5>Tabs with soft transitioning effect 1.</h5>
+                <p class="tabText"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                  bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                  justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                  penatibus et magnis dis parturient montes.
+                </p>
+                <p class="tabText2">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                  bibendum laoreet.
+                </p>
+                <button class="tabsButton">Download</button>
+                <img src="image.png" alt="">
+                </div>
+              <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                <h5>Tabs with soft transitioning effect 2.</h5>
+                <p class="tabText"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                  bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                  justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                  penatibus et magnis dis parturient montes.
+                </p>
+                <p class="tabText2">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                  bibendum laoreet.
+                </p>
+                <button class="tabsButton">Download</button>
+                <img src="image.png" alt="">
+              </div>
+              <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                <h5>Tabs with soft transitioning effect 3.</h5>
+                <p class="tabText"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                  bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                  justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                  penatibus et magnis dis parturient montes.
+                </p>
+                <p class="tabText2">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                  bibendum laoreet.
+                </p>
+                <button class="tabsButton">Download</button>
+                <img src="image.png" alt="">
+              </div>
+            </div>
+          </div>
+    </div>
+  </div>
+    </section>
+
+    <section id="list">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <img class="listImage" src="image2.png" alt="">
+          </div>
+          <div class="col-lg-6">
+            <h5> <span class="underline2">Sub List</span> Section</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
+              euismod bibendum laoreet. Proin gravida dolor sit amet lacus 
+              accumsan et viverra justo commodo.
+            </p>
+            <div class="row">
+              <div class="col-lg-2">
+                <img src="icon.png" alt="">
+              </div>
+              <div class="col-lg-10">
+                <h6>Title</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                  Aenean euismod bibendum laoreet.
+                </p>
+              </div>
+              <div class="col-lg-2">
+                <img src="icon.png" alt="">
+              </div>
+              <div class="col-lg-10">
+                <h6>Title</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                  Aenean euismod bibendum laoreet. Proin gravida dolor 
+                  sit amet lacus accumsan et viverra justo commodo.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="list2">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h5> <span class="underline2">Standard</span> Picture Section</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
+              euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan 
+              et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis 
+              natoque penatibus et magnis dis parturient montes.
+              <br>
+              <br>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+              bibendum laoreet.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <img class="listImage float-right" src="image3.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials">
+      <div class="container">
+        <h1>WHY THI<span class="underline2">S IS A</span>WESOME</h1>
+        <p class="tagline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="row">
+          <div class="col-lg-4 testimonials_subdiv">
+            <img src="icon2.png" alt="">
+            <h3>Thoughtful Design</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
+              elit. Aenean euismod bibendum laoreet. Proin gravida 
+              dolor sit amet lacus accumsan et viverra.
+            </p>
+          </div>
+          <div class="col-lg-4 testimonials_subdiv">
+            <img src="icon3.png" alt="">
+            <h3>Well Crafted</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
+              elit. Aenean euismod bibendum laoreet. Proin gravida 
+              dolor sit amet lacus accumsan et viverra.
+            </p>
+          </div>
+          <div class="col-lg-4 testimonials_subdiv">
+            <img src="icon4.png" alt="">
+            <h3>Easy to Customize</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
+              elit. Aenean euismod bibendum laoreet. Proin gravida 
+              dolor sit amet lacus accumsan et viverra.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing">
+      <div class="container">
+        <h1>PRICIN<span class="underline2">G O</span>PTIONS</h1>
+        <p class="tagline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="pricing-title">
+              <h4>Basic</h4>
+            </div>
+            <div class="price-box">
+              <h1>$ <span class="main-price">0</span></h1>
+              <p><em>Free for Life</em></p>
+            </div>
+            <div class="pricing-detail">
+              <p>1 GB OF SPACE</p>
+              <P>10 GB OF BANDWIDTH</P>
+              <P>3 WEBSITES</P>
+              <P>BASIC CUSTOMIZATION</P>
+              <P>WORDPRESS INTEGRATION</P>
+              <P>EMAIL SUPPORT</P>
+            </div>
+          </div>
+          <div class="col-lg-4 middle">
+            <div class="pricing-title">
+              <h4>Professional</h4>
+            </div>
+            <div class="price-box">
+              <h1>$ <span class="main-price">19</span></h1>
+              <p><em>Monthly Payment</em></p>
+            </div>
+            <div class="popular">
+              <p>OUR MOST POPULAR</p>
+            </div>
+            <div class="pricing-detail">
+              <p>5 GB OF SPACE</p>
+              <P>50 GB OF BANDWIDTH</P>
+              <P>12 WEBSITES</P>
+              <P>ADVANCED CUSTOMIZATION</P>
+              <P>WORDPRESS INTEGRATION</P>
+              <P>EMAIL SUPPORT</P>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="pricing-title">
+              <h4>Enterprise</h4>
+            </div>
+            <div class="price-box">
+              <h1>$ <span class="main-price">70</span></h1>
+              <p><em>Monthly Payment</em></p>
+            </div>
+            <div class="pricing-detail">
+              <p>UNLIMITED SPACE</p>
+              <P>UNLIMITED BANDWIDTH</P>
+              <P>100 WEBSITES</P>
+              <P>ADVANCED CUSTOMIZATION</P>
+              <P>WORDPRESS INTEGRATION</P>
+              <P>24/7 CUSTOMER SUPPORT</P>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="customer-review">
+      <div class="container">
+        <h1>WHAT OUR CUS<span class="underline2">TOM</span>ERS ARE SAYING</h1>
+        <p class="customer-review-tagline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="customer-saying">
+              <p><em>"Lorem ipsum dolor sit amet, 
+                consectetur adipisicing elit. Doloribus 
+                accusamus expedita repellat similique 
+                odio aspernatur ex, architecto eaque 
+                quo suscipit."</em>
+              </p>
+            </div>
+            <div class="customer">
+              <div class="customer-image">
+                <img src="customer.png" alt="">
+              </div>
+              <div class="customer-name">
+                <h4>Jeremy H.</h4>
+                <p>Manager</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="customer-saying">
+              <p><em>"Lorem ipsum dolor sit amet, 
+                consectetur adipisicing elit. Doloribus 
+                accusamus expedita repellat similique 
+                odio aspernatur ex, architecto eaque 
+                quo suscipit."</em>
+              </p>
+            </div>
+            <div class="customer">
+              <div class="customer-image">
+                <img src="customer.png" alt="">
+              </div>
+              <div class="customer-name">
+                <h4>Jeremy H.</h4>
+                <p>Manager</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="customer-saying">
+              <p><em> blo "Lorem ipsum dolor sit amet, 
+                consectetur adipisicing elit. Doloribus 
+                accusamus expedita repellat similique 
+                odio aspernatur ex, architecto eaque 
+                quo suscipit."</em>
+              </p>
+            </div>
+            <div class="customer">
+              <div class="customer-image">
+                <img src="customer.png" alt="">
+              </div>
+              <div class="customer-name">
+                <h4>Jeremy H.</h4>
+                <p>Manager</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="stylish-design">
+      <div class="container">
+        <h1>STYLISH <span class="underline2">AXURE</span> DESIGN</h1>
+        <p>Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
+        <button>Download</button>
+      </div>
+    </section>
+
+    <section id="contact-us">
+      <div class="container">
+        <h1>CON<span class="underline2">TAC</span>T US</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="row">
+          <div class="col-lg-6">
+            <div>
+              <input type="text" name="name" placeholder="Name">
+            </div>
+            <div>
+              <input type="email" name="name" placeholder="Email">
+            </div>
+            <div>
+              <input type="text" name="name" placeholder="Subject">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <textarea name="" id="" cols="60" rows="5" placeholder="Message"></textarea>
+          </div>
+        </div>
+        <div class="contact-us-button">
+          <button>Send Message</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div class="container">
+        <div class="social-icon">
+          <a href=""><img src="facebook-64.ico"></a>
+          <a href=""><img src="twitter-64.ico"></a>
+          <a href=""><img src="google-plus-64.ico"></a>
+          <a href=""><img src="pinterest-5-64.ico"></a>
+          <a href=""><img src="instagram-5-64.ico"></a>
+          <a href=""><img src="stumbleupon-64.ico"></a>
+
+          <p>© 2020 Axure Themes</p>
+        </div>
+      </div>
+    </section>
+    
+
+</body>
+</html>
